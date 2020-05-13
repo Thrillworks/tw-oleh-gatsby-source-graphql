@@ -1,8 +1,8 @@
 {
   "name": "tw-oleh-gatsby-source-graphql",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "GraphQL connection for the Thrillworks Orchestration Layer",
-  "main": "./dist/index.js",
+  "main": "index.js",
   "dependencies": {
     "@babel/runtime": "^7.9.6",
     "apollo-link": "1.2.14",
@@ -41,7 +41,7 @@
     "orchestration"
   ],
   "scripts": {
-    "build": "babel src --out-dir ./dist --ignore \"**/__tests__\"",
+    "build": "babel src --out-dir . --ignore \"**/__tests__\"",
     "prepare": "cross-env NODE_ENV=production npm run build",
     "watch": "babel -w src --out-dir ./dist --ignore \"**/__tests__\""
   },
@@ -105,6 +105,5 @@
   },
   "author": "Marc Pelland <mpelland@thrillworks.com>",
   "repository": "Thrillworks/tw-oleh-gatsby-source-graphql",
-  "files": [ "dist" ],
   "license": "MIT"
 }

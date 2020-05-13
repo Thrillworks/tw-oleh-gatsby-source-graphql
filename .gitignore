@@ -67,3 +67,11 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+transforms.js
+schemes.js
+gatsby-node.js
+extend-node-type.js
+download-asset.js
+cache-image.js
+batching/*
