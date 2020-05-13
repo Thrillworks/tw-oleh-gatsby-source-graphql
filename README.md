@@ -37,6 +37,7 @@ module.exports = {
         typeName: "GitHub",
         fieldName: "github",
         url: "https://api.github.com/graphql",
+        downloadLocal: true, // download the images from the server for use with Gatsby Image
         // HTTP headers
         headers: {
           // Learn about environment variables: https://gatsby.dev/env-vars
