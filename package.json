@@ -1,8 +1,8 @@
 {
   "name": "tw-oleh-gatsby-source-graphql",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "GraphQL connection for the Thrillworks Orchestration Layer",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "dependencies": {
     "@babel/runtime": "^7.9.6",
     "apollo-link": "1.2.14",

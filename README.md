@@ -27,6 +27,8 @@ module.exports = {
         fieldName: "swapi",
         // Url to query from
         url: "https://swapi-graphql.netlify.com/.netlify/functions/index",
+        // download the Assets, images can be used with Gatsby Image and live locally 
+        downloadAssets: true,
       },
     },
 
@@ -231,6 +233,7 @@ module.exports = {
         typeName: "SWAPI",
         fieldName: "swapi",
         url: "https://api.graphcms.com/simple/v1/swapi",
+        downloadAssets: true,
         batch: true,
         // See https://github.com/graphql/dataloader#new-dataloaderbatchloadfn--options
         // for a full list of DataLoader options
